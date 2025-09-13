@@ -1,0 +1,12 @@
+{
+	"name": "ADLS_Source_Folder",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://yashstorageaccount07.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFFNzM1M0IxLUI3M0YtNDk0MS04NzQ4LUVBODA3RTEyRjZBMF8xZDg5NmY4My1jYzc0LTQ5MGUtODBmNy0wZDZiZGI1MjU5MjAiDQp9"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"name": "DS_Weblogs",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_Source_Folder",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "weblogs.json",
+				"fileSystem": "source-folder"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"SessionID": {
+					"type": "string"
+				},
+				"CustomerID": {
+					"type": "integer"
+				},
+				"Timestamp": {
+					"type": "string"
+				},
+				"PageVisited": {
+					"type": "string"
+				},
+				"DurationSeconds": {
+					"type": "integer"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

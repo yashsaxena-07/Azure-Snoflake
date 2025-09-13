@@ -1,0 +1,9 @@
+{
+	"name": "yash-case-study-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8c88adb9-f22f-45d4-905c-e4803b2f2698",
+		"tenantId": "1fc5fde7-8bf3-4308-a889-e63a9b6651d0"
+	}
+}
